@@ -60,7 +60,5 @@ Realiza tus cambios y haz un commit (git commit -m 'Add some AmazingFeature').
 Push a la rama (git push origin feature/AmazingFeature).
 Abre un Pull Request.
 
-
-
-##Licencia
+## Licencia
 Distribuido bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
