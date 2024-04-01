@@ -16,8 +16,8 @@ Para instalar y configurar el proyecto en tu entorno local, sigue estos pasos:
 1. Clona este repositorio a tu máquina local:
 
 ```bash
-git clone [https://github.com/lhumeau/AdUserPasswordValidator.git]
-cd tuRepositorio
+git clone https://github.com/lhumeau/AdUserPasswordValidator.git
+cd folderName
 npm install
 ```
 
