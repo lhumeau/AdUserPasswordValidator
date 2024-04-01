@@ -19,9 +19,10 @@ Para instalar y configurar el proyecto en tu entorno local, sigue estos pasos:
 git clone https://github.com/lhumeau/AdUserPasswordValidator.git
 cd folderName
 npm install
+
 ```
 
-##Configuración
+## Configuración
 Antes de ejecutar el script, debes configurar el acceso a tu servidor Active Directory en el archivo config.js:
 const config = {
   url: 'ldap://direccion.ip.servidor.AD',
@@ -29,6 +30,20 @@ const config = {
 };
 
 Reemplaza 'ldap://direccion.ip.servidor.AD' y 'dc=dominio,dc=com' con los valores correspondientes a tu entorno de AD.
+
+El archivo users.json almacena la estructura el listado de usuario. Si esta en blanco el codigo no lo toma como referencia y usa los valores por default.
+
+## Estructura del Json:
+
+```
+[
+  { username : 'user1@domain.local', password : 'password1'
+ },
+  { username: 'user2@rizek.local', password: 'password2' },
+
+];
+
+```
 
 ##Uso
 Para autenticar un usuario con Active Directory, ejecuta el script principal del proyecto:
