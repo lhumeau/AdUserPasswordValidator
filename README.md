@@ -45,7 +45,7 @@ El archivo users.json almacena la estructura el listado de usuario. Si esta en b
 
 ```
 
-##Uso
+## Uso
 Para autenticar un usuario con Active Directory, ejecuta el script principal del proyecto:
 
 `node app.js`
