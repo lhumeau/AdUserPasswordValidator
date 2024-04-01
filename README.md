@@ -13,7 +13,7 @@ Para usar este proyecto, sigue estos pasos:
 1. Clona este repositorio a tu máquina local usando `git clone`.
 2. Navega al directorio del proyecto clonado.
 3. Ejecuta `npm install` para instalar las dependencias necesarias.
-4. Ejecuta app.js
+4. Ejecuta `node app.js`
 
 ## Configuración
 
