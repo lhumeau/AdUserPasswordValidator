@@ -16,12 +16,11 @@ Para instalar y configurar el proyecto en tu entorno local, sigue estos pasos:
 1. Clona este repositorio a tu máquina local:
 
 ```bash
-git clone https://github.com/tuUsuario/tuRepositorio.git
+git clone [https://github.com/lhumeau/AdUserPasswordValidator.git]
 cd tuRepositorio
 npm install
-
-
 ```
+
 ##Configuración
 Antes de ejecutar el script, debes configurar el acceso a tu servidor Active Directory en el archivo config.js:
 const config = {
@@ -31,23 +30,21 @@ const config = {
 
 Reemplaza 'ldap://direccion.ip.servidor.AD' y 'dc=dominio,dc=com' con los valores correspondientes a tu entorno de AD.
 
-
-
 ##Uso
 Para autenticar un usuario con Active Directory, ejecuta el script principal del proyecto:
 
-`node app.js
-`
+`node app.js`
+
 ## Contribuyendo
-Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
 
-Si tienes una sugerencia que mejoraría esto, por favor, bifurca el repositorio y crea un pull request. También puedes simplemente abrir un issue con la etiqueta "mejora". ¡No olvides darle una estrella al proyecto! Gracias de nuevo.
+Las contribuciones a este proyecto son bienvenidas. Si deseas contribuir, por favor:
 
-Bifurca el proyecto
-Crea tu rama de características (git checkout -b feature/AmazingFeature)
-Realiza tus cambios y commit (git commit -m 'Add some AmazingFeature')
-Push a la rama (git push origin feature/AmazingFeature)
-Abre un pull request.
+Haz un fork del repositorio.
+Crea una nueva rama para tu característica (git checkout -b feature/AmazingFeature).
+Realiza tus cambios y haz un commit (git commit -m 'Add some AmazingFeature').
+Push a la rama (git push origin feature/AmazingFeature).
+Abre un Pull Request.
+
 
 
 ##Licencia
