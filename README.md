@@ -39,7 +39,7 @@ El archivo users.json almacena la estructura el listado de usuario. Si esta en b
 [
   { username : 'user1@domain.local', password : 'password1'
  },
-  { username: 'user2@rizek.local', password: 'password2' },
+  { username: 'user2@domain.local', password: 'password2' },
 
 ];
 
