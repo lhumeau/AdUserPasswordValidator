@@ -23,8 +23,7 @@ Necesitarás configurar el proyecto con los detalles específicos de tu entorno 
 module.exports = {
   url: 'ldap://dirección_ip_servidor_AD',
   baseDN: 'dc=ejemplo,dc=com',
-  username: 'tu_usuario@ejemplo.com',
-  password: 'tu_contraseña'
+
 };
 
 ```
