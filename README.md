@@ -1,33 +1,43 @@
 # Autenticación Active Directory con Node.js
 
-Este proyecto permite autenticar usuarios contra un servidor Active Directory (AD) utilizando Node.js. Es útil para integrar la autenticación de AD en aplicaciones Node.js, proporcionando una manera sencilla de verificar las credenciales de los usuarios.
+Este proyecto permite la autenticación de usuarios contra un servidor Active Directory (AD) utilizando Node.js, diseñado para ser integrado en aplicaciones que requieren validar credenciales de usuario con AD.
 
 ## Pre-requisitos
 
-Antes de comenzar, asegúrate de tener instalado Node.js en tu sistema. Este proyecto también requiere acceso a un servidor Active Directory.
+Antes de comenzar, asegúrate de tener los siguientes requisitos previos instalados y configurados:
+
+- Node.js (Versión 12.x o superior)
+- Acceso a un servidor Active Directory
 
 ## Instalación
 
-Para usar este proyecto, sigue estos pasos:
+Para instalar y configurar el proyecto en tu entorno local, sigue estos pasos:
 
-1. Clona este repositorio a tu máquina local usando `git clone`.
-2. Navega al directorio del proyecto clonado.
-3. Ejecuta `npm install` para instalar las dependencias necesarias.
-4. Ejecuta `node app.js`
+1. Clona este repositorio a tu máquina local:
 
-## Configuración
+```bash
+git clone https://github.com/tuUsuario/tuRepositorio.git
+cd tuRepositorio
+npm install
 
-Necesitarás configurar el proyecto con los detalles específicos de tu entorno de Active Directory. Abre el archivo `config.js` (debes crear este archivo basado en el ejemplo proporcionado) y actualiza la configuración con los valores apropiados para tu entorno:
-
-```javascript
-module.exports = {
-  url: 'ldap://dirección_ip_servidor_AD',
-  baseDN: 'dc=ejemplo,dc=com',
-
-};
 
 ```
+##Configuración
+Antes de ejecutar el script, debes configurar el acceso a tu servidor Active Directory en el archivo config.js:
+const config = {
+  url: 'ldap://direccion.ip.servidor.AD',
+  baseDN: 'dc=dominio,dc=com',
+};
 
+Reemplaza 'ldap://direccion.ip.servidor.AD' y 'dc=dominio,dc=com' con los valores correspondientes a tu entorno de AD.
+
+
+
+##Uso
+Para autenticar un usuario con Active Directory, ejecuta el script principal del proyecto:
+
+`node app.js
+`
 ## Contribuyendo
 Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
 
